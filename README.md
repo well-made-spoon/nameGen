@@ -26,7 +26,7 @@ Usage of ./nameGen:
 package main
 
 import (
-	"github.com/well-made-spoon/nameGen/RandomName"
+  "github.com/well-made-spoon/nameGen/RandomName"
 )
 
 func main() {
