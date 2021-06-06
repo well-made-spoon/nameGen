@@ -30,6 +30,6 @@ import (
 )
 
 func main() {
-		fmt.Println(nameGen.RandomName())
+  fmt.Println(nameGen.RandomName())
 }
 ```
