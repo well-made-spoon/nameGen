@@ -11,6 +11,7 @@ A CLI and library for generating random names in the form of "Adjective Noun"
 
 # Usage
 
+## CLI
 ```
 ./nameGen  --help
 Usage of ./nameGen:
@@ -18,4 +19,18 @@ Usage of ./nameGen:
     	Print random name(s) using Flippy Text
   -n int
     	Number of random names to generate (default 1)
+```
+
+## Library
+```
+package main
+
+import (
+	"github.com/well-made-spoon/nameGen/RandomName"
+)
+
+func main() {
+		name := nameGen.RandomName()
+		fmt.Println(nameGen.RandomName())
+}
 ```
