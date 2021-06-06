@@ -1,4 +1,4 @@
-package main
+package nameGen
 
 var Nouns = []string{
 	"ATM",
