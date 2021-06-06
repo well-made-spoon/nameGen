@@ -1,4 +1,4 @@
-module nameGen
+module github.com/well-made-spoon/nameGen
 
 go 1.16
 
