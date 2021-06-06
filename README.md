@@ -13,8 +13,10 @@ A CLI and library for generating random names in the form of "Adjective Noun"
 
 ## CLI
 ```
-./nameGen  --help
-Usage of ./nameGen:
+nameGen --help
+Usage of nameGen:
+  -color
+    	Print random name(s) using color
   -flippy
     	Print random name(s) using Flippy Text
   -n int
