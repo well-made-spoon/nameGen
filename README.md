@@ -30,7 +30,6 @@ import (
 )
 
 func main() {
-		name := nameGen.RandomName()
 		fmt.Println(nameGen.RandomName())
 }
 ```
