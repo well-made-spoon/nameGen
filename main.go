@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/bengadbois/flippytext"
-	"github.com/well-made-spoon/nameGen"
+	"github.com/well-made-spoon/nameGen/RandomName"
 )
 
 var numNames = flag.Int("n", 1, "Number of random names to generate")
