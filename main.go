@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-  "github.com/fatih/color"
 	"github.com/bengadbois/flippytext"
+	"github.com/fatih/color"
 	"github.com/well-made-spoon/nameGen/RandomName"
 )
 
@@ -17,14 +17,14 @@ func main() {
 	for i := 0; i < *numNames; i++ {
 		name := nameGen.RandomName()
 		if *flippy {
-      if *color_flag{
-      color.Set(color.FgGreen)
-    }
+			if *color_flag {
+				color.Set(color.FgGreen)
+			}
 			flippytext.New().Write(name)
 		} else {
-      if *color_flag{
-      color.Set(color.FgGreen)
-      }
+			if *color_flag {
+				color.Set(color.FgGreen)
+			}
 			fmt.Println(nameGen.RandomName())
 		}
 	}
